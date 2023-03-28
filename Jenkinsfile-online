@@ -59,7 +59,6 @@ pipeline {
                 }
            }
         }
-
         stage('deploy to dev') {
           when{
             branch 'master'
